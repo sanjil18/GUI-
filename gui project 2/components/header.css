@@ -1,0 +1,49 @@
+header {
+    width: auto;
+    height: 200px;
+    font-size: large;
+    background-color: rgb(226, 143, 41);
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+.grp1
+{
+    background-color: white;
+    border-style: none none solid none;
+    display: flex;   
+    justify-content: 100px;
+    align-items: center;         
+    gap: 100px;    
+     font-size: 20px;  
+     height: 100px;;
+     width: 100%;    
+             
+          
+}
+.img1 {
+    float: left;
+    width: auto; /* Adjust width as needed */
+    height: 200px; /* Maintain aspect ratio */
+}
+
+.he1,.he2, .he3, .he4 {
+    text-align: center;
+}
+
+.he1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.he2 {
+    margin-top: 5px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.he3 {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
