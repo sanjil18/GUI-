@@ -1,17 +1,17 @@
-import React from 'react';
-import Header1 from './Components/Header1';
-import Footer from './Components/Footer';
-import './Components/Footer.css';
-import './Components/Header.css';
 
-const App = () => {
+import SignUp from './pages/Signup.jsx';
+import Login from './pages/Signup.jsx';
+import Home from './pages/Home.jsx';
+import BookSeat  from './pages/BookSeat.jsx';
+
+
+
+function App() {
   return (
     <div>
-      <Header1 />
-      <h1 style={{ textAlign: 'center', margin: '20px 0' }}>My Project</h1>
-      <Footer />
+      <BookSeat/>
     </div>
   );
-};
+}
 
 export default App;

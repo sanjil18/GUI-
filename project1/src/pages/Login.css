@@ -1,4 +1,4 @@
-div
+.div1
 {
     margin-top: 20px;
     margin-left: 25%;
@@ -19,7 +19,7 @@ label
 {
 margin: 10px;
 }
-div2
+.div2
 {
    align-items: center; 
 }

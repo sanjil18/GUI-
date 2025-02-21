@@ -1,12 +1,30 @@
 .header-container {
-    text-align: center;
-    background-color:rgb(rgb(240, 125, 125), green, blue);
-    color: white;
-    padding: 20px;
-  }
-  
-  .img1 {
-    width: auto;
-    height: 200px;
-  }
-  
+  text-align: center;
+  background-color: rgb(227, 225, 240); /* A light red background */
+  color: rgb(18, 18, 18); /* White text color */
+  padding: 20px; /* Adds space inside the container */
+  width: auto;
+  height: 300px;
+}
+
+.img1 {
+  width: auto; /* Keeps the width proportional to the original image size */
+  height: 300px; /* Fixes the height to 200px */
+  float: left;
+}
+h1
+{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  ;
+}
+h2
+{
+  font-size: 40px;
+}
+h3
+{
+  font-size: 30px;
+}
