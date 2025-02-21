@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header1 from '../Components/Header1';  // Assuming you have a Header component
 import Footer from '../Components/Footer';  // Assuming you have a Footer component
-import './SignIn.css' ;// Assuming you have the SignIn CSS file for styling
+import './Login.css' ;// Assuming you have the SignIn CSS file for styling
 import './BookSeat.css';
 
 const SeatBooking = () => {
@@ -26,7 +26,7 @@ const SeatBooking = () => {
     <div>
       <Header1 /> {/* Header component outside the main content */}
 
-      <div>
+      <div className='div1'>
         <h3 style={{ textAlign: 'center' }}>Seat Booking</h3>
         
         <form onSubmit={handleSubmit}>

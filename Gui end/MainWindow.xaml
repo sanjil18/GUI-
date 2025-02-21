@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Login" Height="300" Width="400">
     <Grid>
+        <Label Content="Log in Page " HorizontalAlignment="Center" FontSize="20px"/>
         <Label Content="Registration Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0"/>
         <TextBox Name="RegNoInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="150,30,0,0"/>
 

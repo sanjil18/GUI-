@@ -1,4 +1,4 @@
-body
+.d1
 {
     background-color: lightgrey;
 }
@@ -11,7 +11,7 @@ body
     color: black;
     text-align: center;
 }
-img
+.img
 { 
     width:40px;
     height: 40px;
