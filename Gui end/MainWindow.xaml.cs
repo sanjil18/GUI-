@@ -43,10 +43,14 @@ namespace Gui_end
                 // Password does not match
                 MessageBox.Show("Invalid password. Please try again.");
             }
+            else if(passwordInput==null||RegNoInput==null)
+                {
+                MessageBox.Show("Invalid Login Please Try Again ");
+            }
             else
             {
                 // Login successful, navigate to the homepage
-                HomePage homePage = new HomePage();
+                HomePage homePage = new HomePage(user);
                 homePage.Show();
 
                 // Close the login window (optional)

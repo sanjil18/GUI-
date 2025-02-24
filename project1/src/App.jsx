@@ -4,15 +4,21 @@ import Login from './pages/Login.jsx';
 import Home from './pages/Home.jsx';
 import BookSeat  from './pages/BookSeat.jsx';
 import Profile  from './pages/Profile.jsx';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 
 
 function App() {
   return (
-    <div>
-      <Profile/>
-    </div>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/book-seat" element={<BookSeat />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
   );
 }
 

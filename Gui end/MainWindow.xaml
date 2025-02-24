@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gui_end"
         mc:Ignorable="d"
-        Title="Login" Height="300" Width="400">
+        Title="Login" Height="600" Width="600">
     <Grid>
-        <Label Content="Log in Page " HorizontalAlignment="Center" FontSize="20px"/>
-        <Label Content="Registration Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0"/>
-        <TextBox Name="RegNoInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="150,30,0,0"/>
+        <Label Content="Log in Page " HorizontalAlignment="Center" FontSize="40px"/>
+        <Label Content="Registration Number:" HorizontalAlignment="Left" FontSize="20px" VerticalAlignment="Top" Margin="55,105,0,0"/>
+        <TextBox Name="RegNoInput" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="250" Margin="271,109,0,0" RenderTransformOrigin="0.518,3.606" Height="33" />
 
-        <Label Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,0,0"/>
-        <PasswordBox Name="PasswordInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="150,80,0,0"/>
+        <Label Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20px" Margin="85,176,0,0"/>
+        <PasswordBox Name="PasswordInput" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Margin="271,181,0,0" RenderTransformOrigin="0.642,0.23" Height="32"/>
 
-        <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="50,150,0,0" Click="LoginButton_Click"/>
-        <Button Content="Signup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="200,150,0,0" Click="SignUpbutton"/>
+        <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="250,269,0,0" Click="LoginButton_Click" RenderTransformOrigin="0.525,3.269" Height="36"/>
+        <Label Content="Don't Have you Account??? " HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,399,0,0" Height="31" FontSize="15"/>
+        <Button Content="Signup" HorizontalAlignment="Center" VerticalAlignment="Top" Width="124" Margin="0,435,0,0" Click="SignUpbutton" RenderTransformOrigin="0.548,3.86" Height="31"/>
     </Grid>
 </Window>

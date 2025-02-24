@@ -20,12 +20,14 @@ namespace Gui_end
     public partial class BookSeat : Window
     {
         SignUpDbConnect _db = new SignUpDbConnect();
-        public BookSeat()
+        public DbConnect Student { get;set; }
+        public BookSeat(DbConnect user)
         {
             InitializeComponent();
+            Student = user;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BookSeatUP(object sender, RoutedEventArgs e)
         {   
             int seatNOconvert= Convert.ToInt32(SeatNumberInput.Text);
             DateTime hours = Convert.ToDateTime(TimeLimitInput.Text);
@@ -36,14 +38,14 @@ namespace Gui_end
             }
             else
             {
-                DbConnect Seatbooking = new DbConnect();
+
+                
 
 
 
-                Seatbooking.seatNo = Convert.ToInt32(SeatNumberInput.Text);
-                Seatbooking.time = Convert.ToDateTime(TimeLimitInput.Text);
+                
 
-                _db.Student.Add(Seatbooking);
+                _db.Student.Update(Student);
 
                 _db.SaveChanges();
                 MessageBox.Show("Seat Booked Sucessfully  ");
@@ -52,6 +54,13 @@ namespace Gui_end
 
 
             }
+        }
+
+        private void Cancel(object sender, RoutedEventArgs e)
+        {
+            HomePage homePage = new HomePage(Student);
+            homePage.Show();
+            this.Close();
         }
     }
 }

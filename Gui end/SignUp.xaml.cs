@@ -53,9 +53,13 @@ namespace Gui_end
             }
         }
 
+        private void CancelButton(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            Close();
 
-
-
+        }
     }
 }
 

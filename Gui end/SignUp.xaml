@@ -5,18 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gui_end"
         mc:Ignorable="d"
-        Title="Signup" Height="350" Width="400">
-    <Grid>
-        <Label Content="Registration Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0"/>
-        <TextBox Name="SignupRegNoInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="150,30,0,0"/>
+        Title="Signup" Height="600" Width="500">
+    <Grid Margin="0,0,0,3">
+        <Label Content="Sign Up Page" HorizontalAlignment="Center" FontSize="40" Margin="0,42,0,456"/>
+        <Label Content="Registration Number:"  FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,171,0,0" Height="40" Width="160"/>
+        <TextBox Name="SignupRegNoInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="250,175,0,0" Height="36"/>
 
-        <Label Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,0,0"/>
-        <PasswordBox Name="SignupPasswordInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="150,80,0,0"/>
+        <Label Content="Password:" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,240,0,0" Height="36" Width="93"/>
+        <PasswordBox Name="SignupPasswordInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="250,244,0,0" Height="28"/>
 
-        <Label Content="Confirm Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,130,0,0"/>
-        <PasswordBox Name="SignupConfirmPasswordInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="150,130,0,0"/>
+        <Label Content="Confirm Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,299,0,0" FontSize="15"/>
+        <PasswordBox Name="SignupConfirmPasswordInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="250,302,0,0" Height="30"/>
 
-        <Button Content="Signup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="50,200,0,0" Click="SignUpButton" />
-        <Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="200,200,0,0" />
+        <Button Content="Signup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="64,379,0,0" Click="SignUpButton" />
+        <Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="320,379,0,0" Click="CancelButton" />
     </Grid>
 </Window>
