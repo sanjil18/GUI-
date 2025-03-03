@@ -25,7 +25,7 @@ const SeatBooking = () => {
   return (
     <div>
       <Header1 /> {/* Header component outside the main content */}
-
+      
       <div className='div1'>
         <h3 style={{ textAlign: 'center' }}>Seat Booking</h3>
         
@@ -50,7 +50,8 @@ const SeatBooking = () => {
               required
             />
           </div>
-          <button type="submit">Book A Seat</button>
+          <button type="submit">Book</button>
+          
         </form>
       </div>
 

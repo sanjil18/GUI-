@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header1 from '../Components/Header1';
 import Footer from '../Components/Footer'; // Import Footer component correctly
 import './Login.css'; // Correct path for Login.css
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   // Managing input state for username and password
@@ -34,6 +35,8 @@ const Login = () => {
                 placeholder="Enter your username"
                 required
               />
+              <br></br>
+              <br></br>
             </div>
             
             <div>
@@ -46,17 +49,27 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Enter your password"
                 required
+                
               />
+              <br></br>
+              <br></br>
             </div>
-
-            <button type="submit">Log in</button>
+            
+            <Link to="/home"><button className='btn' type="submit">Log in</button> </Link>
           </form>
 
           <p>
-            Don't have an account? <a href="/signup">Sign up</a>
-          </p>
+            Don't have an account?   
+        
+          <Link to="/sign-up">
+                Sign Up
+                </Link> 
+                </p>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
       <Footer />
     </div>
   );

@@ -4,10 +4,10 @@ import './Navigation.css';
 
 function Navigation() {
   return (
-    <div>
-      <p className='p1'><Link to="/home">Home</Link></p>
-      <p className='p1'><Link to="/book-seat">Book A Seat</Link></p>
-      <p className='p1'><Link to="/profile">Profile</Link></p>
+    <div className='nav1'>
+      <p className='p12'><Link to="/home">Home</Link></p>
+      <p className='p12'><Link to="/book-seat">Book A Seat</Link></p>
+      <p className='p12'><Link to="/profile">Profile</Link></p>
     </div>
   );
 }

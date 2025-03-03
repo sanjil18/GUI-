@@ -49,6 +49,7 @@ namespace Gui_end
             }
             else
             {
+                MessageBox.Show($"You are Sucessfullly Logged in Welcome Back {user.RegNo1} ");
                 // Login successful, navigate to the homepage
                 HomePage homePage = new HomePage(user);
                 homePage.Show();

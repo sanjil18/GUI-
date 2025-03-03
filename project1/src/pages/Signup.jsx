@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header1 from '../Components/Header1';
 import Footer from '../Components/Footer'; // Import Footer component correctly
 import './Login.css'; // Correct path for Login.css
+import { Link } from 'react-router-dom';
 
 
 const SignUp = () => {
@@ -34,6 +35,7 @@ const SignUp = () => {
             <input
               type="text"
               name="Userid"
+              placeholder='Enter the Reg No'
               value={regNo}
               onChange={(e) => setRegNo(e.target.value)}
               required
@@ -45,6 +47,7 @@ const SignUp = () => {
               type="password"
               id="password1"
               name="Password1"
+              placeholder='Enter the password'
               value={password1}
               onChange={(e) => setPassword1(e.target.value)}
               required
@@ -56,16 +59,20 @@ const SignUp = () => {
               type="password"
               id="password2"
               name="Password2"
+              placeholder='Enter the password again '
               value={password2}
               onChange={(e) => setPassword2(e.target.value)}
               required
             />
             <br /><br />
-            
-            <button type="submit">Sign Up</button>
+            <Link to="/login">
+      
+            <button className='btn' type="submit">Sign Up</button> </Link>
           </form>
         </div>
-  
+       <br></br>
+       <br></br>
+       <br></br>
         <Footer />
       </div>
     );

@@ -24,12 +24,14 @@ margin: 10px;
 {
    align-items: center; 
 }
-button
+.btn
 {
     margin-left: 45%;
     width: 100px;
-    height: 40px;
-    background-color: darkgray;
+    height: 50px;
+    background-color: rgb(83, 123, 224);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 p{
     text-align: center;
