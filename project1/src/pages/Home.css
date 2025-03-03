@@ -1,19 +1,39 @@
-body
-{
+body {
     background-color: lightgray;
 }
 
-.grp2
-{
-    height :800px;
-    width:auto;
+.grp2 {
+    height: 800px;
+    width: auto;
     margin-top: 10px;
     background-color: white;
-    
-
 }
-.hp1
-{
+
+.hp1 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.btn1 {
+    border-radius: 5px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    width: 350px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block; /* Ensures button is treated as a block */
+    margin: 10px auto; /* Centers button horizontally */
+}
+
+button {
+    height: 50px;
+    width: 100px;
+}
+
+.btngp {
+    display: flex;
+    gap: 40px; /* Adds spacing between buttons */
+    justify-content: center; /* Center the buttons horizontally */
+    width: 100%; /* Ensure the container takes the full width */
 }

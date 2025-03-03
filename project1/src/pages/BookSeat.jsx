@@ -3,6 +3,7 @@ import Header1 from '../Components/Header1';  // Assuming you have a Header comp
 import Footer from '../Components/Footer';  // Assuming you have a Footer component
 import './Login.css' ;// Assuming you have the SignIn CSS file for styling
 import './BookSeat.css';
+import { Link } from 'react-router-dom';
 
 const SeatBooking = () => {
   const [seatNo, setSeatNo] = useState('');
@@ -39,7 +40,9 @@ const SeatBooking = () => {
               onChange={handleSeatChange}
               required
             />
+            
           </div>
+          <br></br>
           <div>
             <label>Time in hours:</label>
             <input
@@ -49,11 +52,18 @@ const SeatBooking = () => {
               onChange={handleTimeChange}
               required
             />
+            
           </div>
-          <button type="submit">Book</button>
-          
+          <br></br>
+        
+         <diV className="btngp">
+         <Link to='/home' > <button className='btn1' type="submit">Book</button> </Link>
+         <Link to='/home' > <button className='btn1' type="submit">Cancel</button> </Link>
+         </diV>
         </form>
       </div>
+      <br></br>
+      <br></br>
 
       <Footer /> {/* Footer component outside the main content */}
     </div>
