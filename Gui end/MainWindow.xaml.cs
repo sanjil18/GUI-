@@ -14,12 +14,17 @@ namespace Gui_end
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    
     public partial class MainWindow : Window
     {
         SignUpDbConnect _db = new SignUpDbConnect();
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void Header_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
 
 
@@ -66,6 +71,11 @@ namespace Gui_end
             SignUp signUp = new SignUp();
             signUp.Show();
             Close();
+        }
+
+        private void RegNoInput_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

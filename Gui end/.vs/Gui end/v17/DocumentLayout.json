@@ -1,7 +1,99 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\preview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:preview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\preview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:preview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\bookseat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:bookseat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\bookseat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:bookseat.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\header.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:header.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\footer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:footer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\footer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:footer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\bookseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:bookseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\seats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:seats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\signupdbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:signupdbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\header.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:header.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|c:\\users\\sanji\\onedrive\\desktop\\github\\gui-\\gui end\\signupclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E46F20-FEDE-446E-80D6-08ED519FCCB0}|Gui end.csproj|solutionrelative:signupclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +101,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Footer.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Footer.xaml",
+              "RelativeDocumentMoniker": "Footer.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Footer.xaml",
+              "RelativeToolTip": "Footer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T17:23:12.455Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Footer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Footer.xaml.cs",
+              "RelativeDocumentMoniker": "Footer.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Footer.xaml.cs",
+              "RelativeToolTip": "Footer.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:47:30.919Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -18,6 +136,265 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:32:19.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookSeat.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\BookSeat.xaml",
+              "RelativeDocumentMoniker": "BookSeat.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\BookSeat.xaml",
+              "RelativeToolTip": "BookSeat.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:32:12.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookSeat.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\BookSeat.xaml.cs",
+              "RelativeDocumentMoniker": "BookSeat.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\BookSeat.xaml.cs",
+              "RelativeToolTip": "BookSeat.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwFsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:16.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Preview.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Preview.xaml",
+              "RelativeDocumentMoniker": "Preview.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Preview.xaml",
+              "RelativeToolTip": "Preview.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T17:20:16.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Preview.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Preview.xaml.cs",
+              "RelativeDocumentMoniker": "Preview.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Preview.xaml.cs",
+              "RelativeToolTip": "Preview.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAjwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:26:25.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIA4wF4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:21.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:30.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:32:25.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbConnect.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\DbConnect.cs",
+              "RelativeDocumentMoniker": "DbConnect.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\DbConnect.cs",
+              "RelativeToolTip": "DbConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:17.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUp.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUp.xaml",
+              "RelativeDocumentMoniker": "SignUp.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUp.xaml",
+              "RelativeToolTip": "SignUp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:32:32.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUp.xaml.cs",
+              "RelativeDocumentMoniker": "SignUp.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUp.xaml.cs",
+              "RelativeToolTip": "SignUp.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAnwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:36.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Header.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Header.xaml",
+              "RelativeDocumentMoniker": "Header.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Header.xaml",
+              "RelativeToolTip": "Header.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T17:22:47.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:23.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:31:50.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:31:43.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookSeat.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\BookSeat.cs",
+              "RelativeDocumentMoniker": "BookSeat.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\BookSeat.cs",
+              "RelativeToolTip": "BookSeat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:07.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Seats.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Seats.cs",
+              "RelativeDocumentMoniker": "Seats.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Seats.cs",
+              "RelativeToolTip": "Seats.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:34.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAL0UAAAAAAAAAAAswMgUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-05T07:19:55.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SignUpDbConnect.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUpDbConnect.cs",
+              "RelativeDocumentMoniker": "SignUpDbConnect.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUpDbConnect.cs",
+              "RelativeToolTip": "SignUpDbConnect.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:40.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Header.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Header.xaml.cs",
+              "RelativeDocumentMoniker": "Header.xaml.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Header.xaml.cs",
+              "RelativeToolTip": "Header.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:47:35.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SignUpClass.cs",
+              "DocumentMoniker": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUpClass.cs",
+              "RelativeDocumentMoniker": "SignUpClass.cs",
+              "ToolTip": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\SignUpClass.cs",
+              "RelativeToolTip": "SignUpClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:32:38.237Z"
             },
             {
               "$type": "Bookmark",

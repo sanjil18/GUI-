@@ -5,19 +5,58 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gui_end"
         mc:Ignorable="d"
-        Title="Signup" Height="600" Width="500">
-    <Grid Margin="0,0,0,3">
-        <Label Content="Sign Up Page" HorizontalAlignment="Center" FontSize="40" Margin="0,42,0,456"/>
-        <Label Content="Registration Number:"  FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,171,0,0" Height="40" Width="160"/>
-        <TextBox Name="SignupRegNoInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="250,175,0,0" Height="36"/>
+        Background="LightGray"
+        Title="Signup" Height="600" Width="1000">
 
-        <Label Content="Password:" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,240,0,0" Height="36" Width="93"/>
-        <PasswordBox Name="SignupPasswordInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="250,244,0,0" Height="28"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Header -->
+            <RowDefinition Height="*"/>
+            <!-- Centered Content -->
+            <RowDefinition Height="Auto"/>
+            <!-- Footer -->
+        </Grid.RowDefinitions>
 
-        <Label Content="Confirm Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,299,0,0" FontSize="15"/>
-        <PasswordBox Name="SignupConfirmPasswordInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="215" Margin="250,302,0,0" Height="30"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <!-- Centered Column -->
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
 
-        <Button Content="Signup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="64,379,0,0" Click="SignUpButton" />
-        <Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="320,379,0,0" Click="CancelButton" />
+        <!-- Header -->
+        <local:Header Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+
+        <!-- Centered SignUp Content -->
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                
+            </Grid.RowDefinitions>
+
+            <Label Content="Sign Up Page" FontSize="40" HorizontalAlignment="Center" Grid.Row="0" Margin="0,20,0,30"/>
+
+            <Label Content="Registration Number:" FontSize="18" Grid.Row="1" VerticalAlignment="Center" Margin="0,10,0,5"/>
+            <TextBox Name="SignupRegNoInput"  HorizontalContentAlignment="Center" Width="300" Height="36" HorizontalAlignment="Left"  RenderTransformOrigin="0.692,0.767" Margin="190,9,0,4" Grid.Row="1"/>
+
+            <Label Content="Password:" FontSize="18" Grid.Row="2" VerticalAlignment="Center" Margin="0,10,0,5"/>
+            <PasswordBox Name="SignupPasswordInput" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="300" Height="36" Grid.Row="2" HorizontalAlignment="Left" Margin="190,7,0,6"/>
+
+            <Label Content="Confirm Password:" FontSize="18" Grid.Row="3" VerticalAlignment="Center" Margin="0,10,0,5"/>
+            <PasswordBox Name="SignupConfirmPasswordInput" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="300" Height="36" Grid.Row="3" HorizontalAlignment="Left" Margin="190,7,0,6"/>
+
+            <StackPanel Grid.Row="7" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                <Button Content="Signup" Background="LimeGreen" Width="120" Height="40" Click="SignUpButton" Margin="0,0,10,0"/>
+                <Button Content="Cancel" Width="120" Background="LimeGreen" Height="40" Click="CancelButton"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Footer -->
+        <local:Footer Grid.Row="2" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>

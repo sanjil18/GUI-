@@ -282,16 +282,23 @@ C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\bin\Debug\net8.0-windows\run
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Gui end.csproj.AssemblyReference.cache
-C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\BookSeat.g.cs
-C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\HomePage.g.cs
-C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\SignUp.g.cs
-C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Gui end_MarkupCompile.cache
-C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Gui end_MarkupCompile.lref
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\BookSeat.baml
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\HomePage.baml
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\BookSeat.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Footer.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Header.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\HomePage.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Preview.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\SignUp.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Gui end_MarkupCompile.cache
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Gui end_MarkupCompile.lref
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Footer.baml
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Header.baml
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Preview.baml
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\SignUp.baml
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Gui end.g.resources
 C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Gui end\obj\Debug\net8.0-windows\Gui end.GeneratedMSBuildEditorConfig.editorconfig
