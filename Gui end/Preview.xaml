@@ -10,26 +10,26 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Header -->
+            
             <RowDefinition Height="*"/>
-            <!-- Content with Background -->
+            
             <RowDefinition Height="Auto"/>
-            <!-- Footer -->
+          
         </Grid.RowDefinitions>
 
-        <!-- Header -->
+        
         <local:Header Grid.Row="0" VerticalAlignment="Top"/>
 
-        <!-- Background Image -->
+       
         <Border Grid.Row="1">
             <Border.Background>
                 <ImageBrush ImageSource="C:\Users\sanji\OneDrive\Pictures\DSC02886.jpg" Stretch="Fill"/>
             </Border.Background>
 
-            <!-- Content over Background -->
+         
             <Grid>
                 <Label Content="Welcome to the Study Hall Management System" FontWeight="Bold" FontSize="25" 
-                       HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,142,0,0" Width="726" HorizontalContentAlignment="Center"/>
+                       HorizontalAlignment="Center" VerticalAlignment="Top" Margin="120,142,0,0" Width="726" HorizontalContentAlignment="Center"/>
                 <Label Content="Notice: From 01/01/2025 we are open 24x7" 
                        HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="AliceBlue" Margin="0,0,0,50" Width="496" FontSize="25"/>
                 <Button Width="150" Background="LimeGreen" Content="Log in" FontSize="30" Click="Login"
@@ -39,7 +39,7 @@
             </Grid>
         </Border>
 
-        <!-- Footer -->
+        
         <local:Footer Grid.Row="2" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>

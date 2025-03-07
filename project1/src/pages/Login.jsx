@@ -5,7 +5,7 @@ import './Login.css'; // Correct path for Login.css
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-  // Managing input state for username and password
+  
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -18,6 +18,7 @@ const Login = () => {
         body: JSON.stringify({ regNo: username, password }),
       });
       const data = await response.json();
+
       if (response.ok) {
         alert('Login successful!');
         window.location.href = '/home';

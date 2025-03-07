@@ -23,7 +23,7 @@ const SeatBooking = () => {
       const response = await fetch('http://localhost:5000/book-seat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ studentId: 1, seatNo, timeLimit: time }), // Replace `1` with the logged-in user's ID
+        body: JSON.stringify({ studentId: 1, seatNo, timeLimit: time }), // Replace 1 with the logged-in user's ID
       });
       const data = await response.json();
       if (response.ok) {

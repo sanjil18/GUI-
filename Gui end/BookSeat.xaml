@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Book Seats" Height="300" Width="400">
     <Grid>
-        <Label Content="Seat Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0"/>
+        <Label Content="Seat Number: (1-200)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0"/>
         <TextBox Name="SeatNumberInput" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="150,30,0,0"/>
 
         <Label Content="Time Limit (HH:mm):" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,80,0,0"/>
