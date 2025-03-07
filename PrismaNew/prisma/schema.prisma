@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model DbConnect {
+  StudentIdFORSMS Int    @id @default(autoincrement())
+  RegNo1          String @unique
+  Password        String
+  Seats           Seats? @relation
+}
+
+model Seats {
+  SeatId          Int    @id @default(autoincrement())
+  StudentIdFORSMS Int    @unique
+  seatsNo         Int
+  TimeLimit       String
+  DbConnect       DbConnect @relation(fields: [StudentIdFORSMS], references: [StudentIdFORSMS])
+}

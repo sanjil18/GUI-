@@ -5,7 +5,7 @@ namespace Gui_end
 {
     public class DbConnect
     {
-        [Key] // Primary Key
+        [Key] 
         public int StudentIdFORSMS { get; set; }
 
         public string RegNo1 { get; set; }

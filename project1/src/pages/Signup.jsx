@@ -11,15 +11,27 @@ const SignUp = () => {
     const [password1, setPassword1] = useState('');
     const [password2, setPassword2] = useState('');
   
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
       e.preventDefault();
-  
-      // Validate passwords
       if (password1 !== password2) {
         alert('Both passwords do not match. Please try again.');
-      } else {
-        alert('Sign-up successful! Press OK to continue...');
-        window.location.href = 'sign in.html';  // Redirect to the sign-in page
+        return;
+      }
+      try {
+        const response = await fetch('http://localhost:5000/signup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ regNo, password: password1 }),
+        });
+        const data = await response.json();
+        if (response.ok) {
+          alert('Account created successfully!');
+          window.location.href = '/login';
+        } else {
+          alert(data.error || 'Registration failed. Please try again.');
+        }
+      } catch (error) {
+        alert('An error occurred. Please try again.');
       }
     };
   

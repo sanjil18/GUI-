@@ -9,11 +9,24 @@ const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your login logic here, using `username` and `password`
-    console.log('Username:', username);
-    console.log('Password:', password);
+    try {
+      const response = await fetch('http://localhost:5000/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ regNo: username, password }),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        alert('Login successful!');
+        window.location.href = '/home';
+      } else {
+        alert(data.error || 'Invalid credentials.');
+      }
+    } catch (error) {
+      alert('An error occurred. Please try again.');
+    }
   };
 
   return (

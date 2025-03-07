@@ -17,10 +17,24 @@ const SeatBooking = () => {
     setTime(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you can add logic to process the booking information
-    alert(`Seat ${seatNo} booked for ${time} hours`);
+    try {
+      const response = await fetch('http://localhost:5000/book-seat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ studentId: 1, seatNo, timeLimit: time }), // Replace `1` with the logged-in user's ID
+      });
+      const data = await response.json();
+      if (response.ok) {
+        alert('Seat booked successfully!');
+        window.location.href = '/home';
+      } else {
+        alert(data.error || 'Failed to book seat. Please try again.');
+      }
+    } catch (error) {
+      alert('An error occurred. Please try again.');
+    }
   };
 
   return (
