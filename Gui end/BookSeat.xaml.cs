@@ -94,10 +94,12 @@ namespace Gui_end
                 _db.SaveChanges();
                 MessageBox.Show("Seat Booked Successfully!");
                 LoadData(); // Refresh UI
+                this.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error while booking seat: " + ex.Message);
+                this.Close();
             }
 
         }

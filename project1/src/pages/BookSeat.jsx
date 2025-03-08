@@ -1,16 +1,22 @@
-import React, { useState } from 'react';
-import Header1 from '../Components/Header1';  // Assuming you have a Header component
-import Footer from '../Components/Footer';  // Assuming you have a Footer component
-import './Login.css' ;// Assuming you have the SignIn CSS file for styling
-import './BookSeat.css';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import Header1 from '../Components/Header1';
+import Footer from '../Components/Footer';
+import { useNavigate, useLocation } from 'react-router-dom';
+import './login.css';
+import './BookSeat.css'; // Make sure this file is updated with the new styles
 
 const SeatBooking = () => {
-  const [seatNo, setSeatNo] = useState('');
-  const [time, setTime] = useState('');
+  const location = useLocation();
+  const navigate = useNavigate();
+  
+  // If updating, pre-fill with existing details
+  const existingSeat = location.state || null;
+  
+  const [seatNo, setSeatNo] = useState(existingSeat ? existingSeat.seatsNo : '');
+  const [time, setTime] = useState(existingSeat ? existingSeat.TimeLimit : '');
 
   const handleSeatChange = (e) => {
-    setSeatNo(e.target.value); 
+    setSeatNo(e.target.value);
   };
 
   const handleTimeChange = (e) => {
@@ -19,18 +25,27 @@ const SeatBooking = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const url = existingSeat 
+      ? `http://localhost:5000/update-seat/${seatNo}` 
+      : 'http://localhost:5000/book-seat';
+
+    const method = existingSeat ? 'PUT' : 'POST';
+
     try {
-      const response = await fetch('http://localhost:5000/book-seat', {
-        method: 'POST',
+      const response = await fetch(url, {
+        method,
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ studentId: 1, seatNo, timeLimit: time }), // Replace 1 with the logged-in user's ID
+        body: JSON.stringify({ studentId: 1, seatNo, timeLimit: time }),
       });
+
       const data = await response.json();
+
       if (response.ok) {
-        alert('Seat booked successfully!');
-        window.location.href = '/home';
+        alert(existingSeat ? 'Seat updated successfully!' : 'Seat booked successfully!');
+        navigate('/home');
       } else {
-        alert(data.error || 'Failed to book seat. Please try again.');
+        alert(data.error || 'Failed to process request.');
       }
     } catch (error) {
       alert('An error occurred. Please try again.');
@@ -39,47 +54,42 @@ const SeatBooking = () => {
 
   return (
     <div>
-      <Header1 /> {/* Header component outside the main content */}
-      
-      <div className='div1'>
-        <h3 style={{ textAlign: 'center' }}>Seat Booking</h3>
+      <Header1 />
+      <div className="login-container"> {/* Use the same container style */}
+        <h3 style={{ textAlign: 'center' }}>{existingSeat ? 'Update Seat Booking' : 'Seat Booking'}</h3>
         
         <form onSubmit={handleSubmit}>
           <div>
             <label>Seat NO (1-150):</label>
-            <input
-              type="number"
-              name="Seat no"
-              value={seatNo}
-              onChange={handleSeatChange}
-              required
+            <input 
+              type="number" 
+              value={seatNo} 
+              onChange={handleSeatChange} 
+              required 
+              disabled={!!existingSeat} 
             />
-            
           </div>
-          <br></br>
+          <br />
+
           <div>
             <label>Time in hours:</label>
-            <input
-              type="time"
-              name="Time"
-              value={time}
-              onChange={handleTimeChange}
-              required
+            <input 
+              type="time" 
+              value={time} 
+              onChange={handleTimeChange} 
+              required 
             />
-            
           </div>
-          <br></br>
-        
-         <diV className="btngp">
-         <Link to='/home' > <button className='btn1' type="submit">Book</button> </Link>
-         <Link to='/home' > <button className='btn1' type="submit">Cancel</button> </Link>
-         </diV>
+          <br />
+
+          <div className="btngp">
+            <button className="btn" type="submit">{existingSeat ? 'Update' : 'Book'}</button>
+            <button className="btn" type="button" onClick={() => navigate('/home')}>Cancel</button>
+          </div>
         </form>
       </div>
-      <br></br>
-      <br></br>
 
-      <Footer /> {/* Footer component outside the main content */}
+      <Footer />
     </div>
   );
 };

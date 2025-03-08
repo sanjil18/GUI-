@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import Header1 from '../Components/Header1';
-import Footer from '../Components/Footer'; // Import Footer component correctly
+import Footer from '../Components/Footer'; // Correct path for Footer component
 import './Login.css'; // Correct path for Login.css
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; // Import useNavigate for better redirection
 
 const Login = () => {
-  
+  // Managing input state for username and password
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [errorMessage, setErrorMessage] = useState(''); // To store error message
+  const navigate = useNavigate(); // For redirecting after successful login
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,70 +23,61 @@ const Login = () => {
 
       if (response.ok) {
         alert('Login successful!');
-        window.location.href = '/home';
+        navigate('/home'); // Use React Router's navigate for redirection
       } else {
-        alert(data.error || 'Invalid credentials.');
+        setErrorMessage(data.error || 'Invalid credentials.'); // Set error message from backend
       }
     } catch (error) {
-      alert('An error occurred. Please try again.');
+      setErrorMessage('An error occurred. Please try again.');
     }
   };
 
   return (
-    <div>
-      <Header1 />
-      <div className="div1">
-        <div className="div2">
-          <h3 style={{ textAlign: 'center' }}>Login Page</h3>  {/* Corrected inline style */}
-          
-          <form onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="username">Username:</label>
-              <input
-                type="text"
-                id="username"
-                name="username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Enter your username"
-                required
-              />
-              <br></br>
-              <br></br>
-            </div>
-            
-            <div>
-              <label htmlFor="password">Password:</label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Enter your password"
-                required
-                
-              />
-              <br></br>
-              <br></br>
-            </div>
-            
-            <Link to="/home"><button className='btn' type="submit">Log in</button> </Link>
-          </form>
-
-          <p>
-            Don't have an account?   
+    <div className="login-page">
+     
+      <div className="login-container">
+        <h3 className="login-title">Login Page</h3>
         
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label htmlFor="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              placeholder="Enter your username"
+              required
+            />
+          </div>
+          
+          <div>
+            <label htmlFor="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          
+          <button className="btn" type="submit">Log in</button>
+        </form>
+
+        {errorMessage && <p className="error-message">{errorMessage}</p>} {/* Display error if any */}
+
+        <p >
+          Don't have an account?   
           <Link to="/sign-up">
-                Sign Up
-                </Link> 
-                </p>
-        </div>
+            Sign Up
+          </Link> 
+        </p>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <Footer />
+      
     </div>
   );
 };

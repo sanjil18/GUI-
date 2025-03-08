@@ -7,39 +7,78 @@
         mc:Ignorable="d"
         Title="Preview" Height="800" Width="900">
 
+    <Window.Resources>
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Background" Value="LimeGreen"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Green"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="DarkGreen"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            
             <RowDefinition Height="*"/>
-            
             <RowDefinition Height="Auto"/>
-          
         </Grid.RowDefinitions>
 
-        
+        <!-- Header -->
         <local:Header Grid.Row="0" VerticalAlignment="Top"/>
 
-       
-        <Border Grid.Row="1">
+        <!-- Main Content Section with Modern Style -->
+        <Border Grid.Row="1" BorderBrush="#00BCD4" BorderThickness="2">
             <Border.Background>
                 <ImageBrush ImageSource="C:\Users\sanji\OneDrive\Pictures\DSC02886.jpg" Stretch="Fill"/>
             </Border.Background>
 
-         
             <Grid>
-                <Label Content="Welcome to the Study Hall Management System" FontWeight="Bold" FontSize="25" 
-                       HorizontalAlignment="Center" VerticalAlignment="Top" Margin="120,142,0,0" Width="726" HorizontalContentAlignment="Center"/>
+                <!-- Welcome Text -->
+                <Label Content="Welcome to the Study Hall Management System" 
+                       FontWeight="Bold" FontSize="28" 
+                       HorizontalAlignment="Center" VerticalAlignment="Top" 
+                       Margin="0,120,0,0" Foreground="Black" FontFamily="Segoe UI"/>
+
+                <!-- Notice Text -->
                 <Label Content="Notice: From 01/01/2025 we are open 24x7" 
-                       HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="AliceBlue" Margin="0,0,0,50" Width="496" FontSize="25"/>
-                <Button Width="150" Background="LimeGreen" Content="Log in" FontSize="30" Click="Login"
-                        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="510,35,0,0"/>
-                <Button Width="150" Background="LimeGreen" Content="Sign Up" FontSize="30" Click="Button_Click"
-                        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="696,35,0,0"/>
+                       HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                       Foreground="AliceBlue" Margin="0,0,0,40" FontSize="22" 
+                       FontFamily="Segoe UI"/>
+
+                <!-- Buttons -->
+                <Button Style="{StaticResource ModernButton}" Content="Log In" Click="Login"
+                        HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,200,0,0"/>
+                <Button Style="{StaticResource ModernButton}" Content="Sign Up" Click="Button_Click"
+                        HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,260,0,0"/>
             </Grid>
         </Border>
 
-        
+        <!-- Footer -->
         <local:Footer Grid.Row="2" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
