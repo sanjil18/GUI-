@@ -9,7 +9,7 @@ namespace Gui_end
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source=C:\Users\sanji\OneDrive\Desktop\Github\GUI-\Database std managment\stdManagement.db");
+            optionsBuilder.UseSqlite(@"Data Source=C:\Users\sanji\OneDrive\Desktop\Projects 24th\Github\GUI-\Database std managment\stdManagement.db");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

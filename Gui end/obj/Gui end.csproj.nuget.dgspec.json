@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Gui end.csproj": {}
+    "C:\\Users\\sanji\\OneDrive\\Desktop\\Projects 24th\\Github\\GUI-\\Gui end\\Gui end.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Gui end.csproj": {
+    "C:\\Users\\sanji\\OneDrive\\Desktop\\Projects 24th\\Github\\GUI-\\Gui end\\Gui end.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Gui end.csproj",
+        "projectUniqueName": "C:\\Users\\sanji\\OneDrive\\Desktop\\Projects 24th\\Github\\GUI-\\Gui end\\Gui end.csproj",
         "projectName": "Gui end",
-        "projectPath": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\Gui end.csproj",
+        "projectPath": "C:\\Users\\sanji\\OneDrive\\Desktop\\Projects 24th\\Github\\GUI-\\Gui end\\Gui end.csproj",
         "packagesPath": "C:\\Users\\sanji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanji\\OneDrive\\Desktop\\Github\\GUI-\\Gui end\\obj\\",
+        "outputPath": "C:\\Users\\sanji\\OneDrive\\Desktop\\Projects 24th\\Github\\GUI-\\Gui end\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
